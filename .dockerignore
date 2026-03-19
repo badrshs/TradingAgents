@@ -1,0 +1,49 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[codz]
+*$py.class
+*.egg-info
+dist
+build
+*.egg
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Environment secrets (never copy into image)
+.env
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation assets
+assets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+**/data_cache/
+.mypy_cache
+.pytest_cache
+.ruff_cache
+htmlcov
+
+# UV lock (not needed at runtime)
+uv.lock
